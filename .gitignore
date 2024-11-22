@@ -1,0 +1,19 @@
+# Python Bytecode Files
+*.pyc
+*.pyo
+__pycache__
+
+# .env dosyalarını git'e dahil etme
+.env
+
+# config.json dosyasını git'e dahil etme
+config.json
+
+# IDE ve editörlere özel dosyalar
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Git tarafından izlenmesini istemediğiniz diğer dosyalar
+node_modules/
